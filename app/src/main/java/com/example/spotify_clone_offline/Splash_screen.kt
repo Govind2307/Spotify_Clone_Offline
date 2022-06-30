@@ -12,7 +12,7 @@ class Splash_screen : AppCompatActivity() {
 
         Handler().postDelayed(Runnable {
 
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, login::class.java))
 
 
         }, 3000)
